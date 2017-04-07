@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FSharpLintSettings xmlns="https://github.com/fsprojects/FSharpLint/blob/master/ConfigurationSchema.xsd">
+  <IgnoreFiles Update="Overwrite"><![CDATA[assemblyinfo.*
+]]></IgnoreFiles>
+  <Analysers>
+    <NestedStatements>
+      <Rules />
+      <Enabled>True</Enabled>
+    </NestedStatements>
+    <NumberOfItems>
+      <Rules />
+      <Enabled>True</Enabled>
+    </NumberOfItems>
+    <SourceLength>
+      <Rules />
+      <Enabled>True</Enabled>
+    </SourceLength>
+    <XmlDocumentation>
+      <Rules>
+        <AutoPropertyDefinitionHeader>
+          <Access>None</Access>
+          <Enabled>True</Enabled>
+        </AutoPropertyDefinitionHeader>
+        <EnumDefinitionHeader>
+          <Access>None</Access>
+          <Enabled>True</Enabled>
+        </EnumDefinitionHeader>
+        <ExceptionDefinitionHeader>
+          <Access>None</Access>
+          <Enabled>True</Enabled>
+        </ExceptionDefinitionHeader>
+        <LetDefinitionHeader>
+          <Access>None</Access>
+          <Enabled>True</Enabled>
+        </LetDefinitionHeader>
+        <MemberDefinitionHeader>
+          <Access>None</Access>
+          <Enabled>True</Enabled>
+        </MemberDefinitionHeader>
+        <ModuleDefinitionHeader>
+          <Access>None</Access>
+          <Enabled>True</Enabled>
+        </ModuleDefinitionHeader>
+        <RecordDefinitionHeader>
+          <Access>None</Access>
+          <Enabled>True</Enabled>
+        </RecordDefinitionHeader>
+        <TypeDefinitionHeader>
+          <Access>None</Access>
+          <Enabled>True</Enabled>
+        </TypeDefinitionHeader>
+        <UnionDefinitionHeader>
+          <Access>None</Access>
+          <Enabled>True</Enabled>
+        </UnionDefinitionHeader>
+      </Rules>
+      <Enabled>True</Enabled>
+    </XmlDocumentation>
+  </Analysers>
+</FSharpLintSettings>
